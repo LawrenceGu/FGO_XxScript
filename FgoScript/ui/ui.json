@@ -1,0 +1,71 @@
+{
+	"style" : "default",
+	"config" : "save_UItest.dat",
+	"width" : 540,
+	"height" : 960,
+	"cancelscroll" : true,
+	//"countdown" : 10,
+	"cancelname" : "取消",
+	"okname" : "确定",
+	"views" : [
+	{
+	    "align" : "left",
+	    "color" : "0,0,0",
+	    "size" : 30,
+	    "text" : "FGO自动脚本",
+	    "bg" : "255,255,255",
+	    "type" : "Label"
+    },
+	{
+        "id" : "line",
+        "type" : "Line",
+        "color" : "230,230,250",
+	    "height" : 2,
+        "width" : 400
+    },
+	{
+	    "id" : "RadioGroup1",
+	    "list" : "自动战斗,自动召唤,自动选择礼装(7列模式)",
+	    "select" : "0",
+	    "size" : 30,
+	    "type" : "RadioGroup",
+	    "orientation" : "horizontal",
+	    "color" : "188,143,143"
+    },
+	
+	{
+	    "align" : "left",
+	    "color" : "0,0,0",
+	    "size" : 20,
+	    "text" : "循环次数",
+	    "bg" : "255,255,255",
+	    "type" : "Label"
+    },
+	{
+	    "id" : "Edit1",
+	    "align" : "left",
+	    "color" : "0,0,0",
+	    "kbtype" : "number",
+	    "prompt" : "代码运行次数/翻页次数",
+	    "size" : 25,
+	    "text" : "27",
+	    "type" : "Edit"
+    },
+	{
+        "id" : "line",
+        "type" : "Line",
+        "color" : "230,230,250",
+	    "height" : 2,
+        "width" : 400
+    },
+	{
+	    "align" : "left",
+	    "color" : "0,0,0",
+	    "size" : 18,
+	    "text" : "注:home按键保持在右侧,循环次数为代码运行次数&翻页次数; 自动选择请将页面改成7列模式. ",
+	    "bg" : "255,255,255",
+	    "type" : "Label"
+    }
+	
+	]
+}
